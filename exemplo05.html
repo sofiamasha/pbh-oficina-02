@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="secao">
+            <div class="entrada">
+                <input type="number" id="num1" class="numero" placeholder="primeiro número">
+                <input type="number" id="num2" class="numero" placeholder="segundo número">
+                <button onclick="somar()">Somar</button>
+            </div>
+            <div class="painel">
+                <div id="resp"></div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function somar() {
+            var num1 = parseInt(document.getElementById("num1").value);
+            var num2 = parseInt(document.getElementById("num2").value);
+
+            var soma = num1 + num2;
+
+            document.getElementById("resp").innerHTML += `<br>${num1} + ${num2} = ${soma}`;
+        }
+    </script>
+
+</body>
+
+</html>
