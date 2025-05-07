@@ -1,0 +1,40 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    border: 1px solid #ededed;
+    width: 28rem;
+    height: 20rem;
+    padding: .5rem;
+    border-radius: 0.5rem;
+    box-shadow: .5rem .5rem .3rem .01rem #ededed;
+    margin: 1rem auto;
+}
+
+.secao {
+    width: 27rem;
+    height: 19rem;
+    padding: .5rem;
+    border-radius: 0.5rem;
+    background-color: #ededed;
+}
+
+.entrada {
+    margin: .5rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 9rem;
+}
+
+.painel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+    overflow: auto;
+}
